@@ -5,7 +5,7 @@
 WHITE='\033[1;37m'
 NC='\033[0m'
 LTGREEN='\033[1;32m'
-PURPLE="\033[0;35m'
+PURPLE='\033[0;35m'
 
 echo -e "${LTGREEN}*** ${WHITE}Running updates & installing git! ${LTGREEN}*** ${NC}"
 sudo apt update && sudo apt -y upgrade
