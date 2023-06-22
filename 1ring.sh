@@ -17,7 +17,7 @@ cd ~/Code
 
 git clone https://github.com/chaslinux/hardware.sh
 git clone https://github.com/chaslinux/install-extras.sh
-git clone https://github.com/chaslinux/phoronix/
+git https://github.com/chaslinux/geekbench-dl
 
 echo -e "${LTGREEN}*** ${WHITE}Start to run the scripts! ${LTGREEN}*** ${NC}"
 echo -e "${PURPLE}*** ${WHITE}Note: This part is NOT completely automated! ${PURPLE}*** ${NC}"
@@ -26,6 +26,6 @@ cd ~/Code/hardware.sh
 ./hardware.sh
 cd ~/Code/install-extras.sh
 ./install-extras.sh
-cd ~/Code/phoronix
-./run-tests.sh
+cd ~/Code/geekbench-dl
+./geekbench-dl.sh
 
