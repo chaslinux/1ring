@@ -17,7 +17,7 @@ cd ~/Code
 
 git clone https://github.com/chaslinux/hardware.sh
 git clone https://github.com/chaslinux/install-extras.sh
-git https://github.com/chaslinux/geekbench-dl
+git clone https://github.com/chaslinux/geekbench-dl
 
 echo -e "${LTGREEN}*** ${WHITE}Start to run the scripts! ${LTGREEN}*** ${NC}"
 echo -e "${PURPLE}*** ${WHITE}Note: This part is NOT completely automated! ${PURPLE}*** ${NC}"
