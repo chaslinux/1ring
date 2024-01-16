@@ -30,4 +30,6 @@ cd ~/Code/install-extras.sh
 cd ~/Code/geekbench-dl
 ./geekbench-dl.sh
 
-
+read -p "Follow the link above for GeekBench, press any key to start Phoronix (Xonotic) GRAPHIC Benchmark" -n1 -s
+cd ~/Code/phoronix
+./run-tests.sh
